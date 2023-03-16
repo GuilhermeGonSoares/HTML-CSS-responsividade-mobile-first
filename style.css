@@ -3,6 +3,7 @@
 @import url("./assets/styles/carrosel.css");
 @import url("./assets/styles/card.css");
 @import url("./assets/styles/visitados.css");
+@import url("./assets/styles/novidades.css");
 
 :root {
   --cor-de-fundo: #EBECEE;

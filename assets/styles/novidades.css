@@ -1,0 +1,41 @@
+.novidades {
+  padding: 1.5em;
+  background-color: var(--cor-de-fundo-secundaria);
+  display: flex;
+  flex-direction: column;
+}
+
+.novidades__titulo, .novidades__descricao {
+  background: var(--azul-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.novidades__titulo {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.novidades__descricao {
+  margin: 0.5em 0 1em 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.novidades__input {
+  width: 89%;
+  border-radius: 24px;
+  align-self: center;
+  padding: 1em 1.5em;
+}
+
+.novidades__input::placeholder {
+  font-family: var(--font-principal);
+  background: url("../img/icon-email.svg") no-repeat;
+  /* background: var(--azul-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; */
+  padding-left: 2em;
+}
