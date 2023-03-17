@@ -28,7 +28,7 @@
   text-align: center;
   color: var(--cor-de-fundo-secundaria);
   background: url("../img/icon-pesquisa.svg") no-repeat;
-  padding-left: 1.5em;
+  margin-left: 1.5em;
   font-family: var(--font-principal);
   font-size: 14px;
   font-weight: 400;
@@ -49,5 +49,9 @@
 
   .banner__pesquisa {
     width: 46%;
+  }
+
+  .banner__pesquisa::placeholder {
+    background-position: 2em;
   }
 }
