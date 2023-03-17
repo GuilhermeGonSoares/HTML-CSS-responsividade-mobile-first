@@ -3,3 +3,43 @@
   background-color: #F9F9F9;
   border-top: 1px solid #000000;
 }
+
+.grupo {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer__texto {
+    font-size: 24px;
+  }
+
+  .grupo {
+    display: flex;
+    gap: 4em;
+    justify-content: start;
+  }
+
+  .grupo__titulo {
+    margin-bottom: 1.5em;
+    font-size: 14px;
+    color: #858585;
+  }
+
+  .grupo__item {
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+
+  .grupo__item a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #474646;
+  }
+}
