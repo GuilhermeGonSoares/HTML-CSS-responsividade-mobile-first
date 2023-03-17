@@ -34,7 +34,7 @@
   font-weight: 400;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 850px) {
   .banner {
     padding: 5em;
   }

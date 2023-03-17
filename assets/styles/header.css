@@ -70,7 +70,7 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 850px) {
   .header__menu {
     display: none;
   }
@@ -133,6 +133,12 @@
     padding: 0.625em;
   }
 
+  .opcoes__categoria::after {
+    content: "▼";
+    display: inline-block;
+    margin-left: 5px;
+  }
+
   .opcoes__botao:checked ~ .opcoes__sub__lista {
     display: block;
   }
@@ -173,4 +179,16 @@
     text-decoration: none;
     color: var(--preto);
   }
+
+  .opcoes__label,
+  .opcoes__sub__item {
+    cursor: pointer;
+    transition: filter 1.5s ease;
+  }
+
+  .opcoes__label:hover,
+  .opcoes__sub__item:hover {
+    filter: brightness(150%);
+  }
+
 }
