@@ -1,14 +1,14 @@
 .footer {
   padding: 1.5em;
   background-color: #F9F9F9;
-  border-top: 1px solid #000000;
+  border-top: 1px solid var(--preto);
 }
 
 .grupo {
   display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .footer {
     display: flex;
     justify-content: space-around;
@@ -41,5 +41,16 @@
     text-decoration: none;
     font-size: 14px;
     color: #474646;
+  }
+}
+
+@media screen and (min-width: 1368px) {
+  .grupo {
+    gap: 11em;
+  }
+
+  .grupo__lista {
+    border-left: 1px solid #858585;
+    padding-left: 1.5em;
   }
 }
